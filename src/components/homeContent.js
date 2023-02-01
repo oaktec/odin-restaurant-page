@@ -1,9 +1,6 @@
-import MainPic from "./img/main-pic.jpg";
+import MainPic from "../img/main-pic.jpg";
 
-export default function component() {
-  const element = document.createElement("div");
-  element.classList.add("main-component");
-
+export default function component(element) {
   const h1 = document.createElement("h1");
   h1.innerHTML = "Welcome to our restaurant!";
   element.appendChild(h1);
