@@ -4,7 +4,12 @@ export default function component(element) {
   element.appendChild(h1);
 
   const p = document.createElement("p");
-  p.innerHTML = "Contact us at 555-555-5555.";
+  p.innerHTML = "Contact us at 123-456-7890.";
   element.appendChild(p);
+
+  const p2 = document.createElement("p");
+  p2.innerHTML = "Or email us at hello@email.com.";
+  element.appendChild(p2);
+
   return element;
 }
