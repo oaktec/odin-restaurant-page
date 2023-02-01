@@ -2,6 +2,7 @@ import MainPic from "./img/main-pic.jpg";
 
 export default function component() {
   const element = document.createElement("div");
+  element.classList.add("main-component");
 
   const h1 = document.createElement("h1");
   h1.innerHTML = "Welcome to our restaurant!";
