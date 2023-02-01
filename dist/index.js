@@ -1,0 +1,1 @@
+(self.webpackChunkodin_restaurant_page=self.webpackChunkodin_restaurant_page||[]).push([[826],{138:()=>{console.log("test")}},e=>{e(e.s=138)}]);
