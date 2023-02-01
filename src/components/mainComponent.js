@@ -1,9 +1,22 @@
-import addMainContent from "./homeContent.js";
+import addHomeContent from "./homeContent.js";
 
-export default function component() {
+export default function component(activeTab) {
   const element = document.createElement("div");
   element.classList.add("main-component");
-  addMainContent(element);
+
+  switch (activeTab) {
+    case "home":
+      addHomeContent(element);
+      break;
+    case "menu":
+      addMenuContent(element);
+      break;
+    case "contact":
+      addContactContent(element);
+      break;
+    default:
+      break;
+  }
 
   return element;
 }

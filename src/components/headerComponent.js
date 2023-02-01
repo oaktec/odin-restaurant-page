@@ -9,10 +9,14 @@ export default function component(navCallback) {
   const li3 = document.createElement("li");
   li1.textContent = "Home";
   li1.addEventListener("click", navCallback);
+  li1.classList.add("active");
+  li1.classList.add("tab");
   li2.textContent = "Menu";
   li2.addEventListener("click", navCallback);
+  li2.classList.add("tab");
   li3.textContent = "Contact";
   li3.addEventListener("click", navCallback);
+  li3.classList.add("tab");
   ul.appendChild(li1);
   ul.appendChild(li2);
   ul.appendChild(li3);
