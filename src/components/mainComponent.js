@@ -1,4 +1,6 @@
 import addHomeContent from "./homeContent.js";
+import addMenuContent from "./menuContent.js";
+import addContactContent from "./contactContent.js";
 
 export default function component(activeTab) {
   const element = document.createElement("div");
