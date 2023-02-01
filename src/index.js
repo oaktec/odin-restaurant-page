@@ -1,2 +1,4 @@
-console.log("test");
-console.log("frfr");
+import "./style.css";
+import mainComponent from "./pageLoad.js";
+
+document.body.appendChild(mainComponent());
